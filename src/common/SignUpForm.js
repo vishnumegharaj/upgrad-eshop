@@ -30,7 +30,7 @@ export default function SignUpForm() {
                     lastName,
                     email,
                     password,
-                    // role,
+                    role,
                     contactNumber,
                     
                 })
@@ -98,12 +98,12 @@ export default function SignUpForm() {
                     <label htmlFor="number" className="text">Contact Number: </label>
                     <input type="text" className="inputField" placeholder="Enter your Contact Number" onChange={(e) => setContactNumber(e.target.value)} required />
 
-                    // <label htmlFor="role" className="text">Role: </label>
-                    // <select id="role" className="inputField" onChange={(e) => setRole(e.target.value)} required>
-                    //     <option value="">Select role</option>
-                    //     <option value="USER">USER</option>
-                    //     <option value="ADMIN">ADMIN</option>
-                    // </select>
+                    <label htmlFor="role" className="text">Role: </label>
+                    <select id="role" className="inputField" onChange={(e) => setRole(e.target.value)} required>
+                        <option value="">Select role</option>
+                        <option value="USER">USER</option>
+                        <option value="ADMIN">ADMIN</option>
+                    </select>
 
                     <button className="btn"  >Sign Up</button>
                     <br /> <br />
