@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+.image{
+    height: 200px;  
+    margin: 20px;
+}
+.stepper{
+    margin: 35px;
+
+}
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    width: 550px;
+}
+.centre{
+    box-shadow: 0px 0px 20px rgba(65, 65, 65, 0.301); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FORM */
+.address-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  .input-container label {
+    font-weight: bold;
+  }
+  
+  .input-container input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .address-form button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .address-details{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .address-form button:hover {
+    background-color: crimson;
+  }
+  
+  .address-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  .review-item {
+    margin-bottom: 1rem;
+  }
+  
+  .review-item p {
+    margin: 0;
+  }
+  
+  .review-item .label {
+    display: inline-block;
+    font-weight: bold;
+    width: 120px; /* Adjust width as needed */
+  }
+  
+  .review-item .value {
+    display: inline-block;
+    color: #555;
+    margin-left: 10px; /* Add margin for spacing */
+  }
+  
+  

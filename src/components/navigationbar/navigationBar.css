@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+.header {
+    background-color: #3f51b5;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+   padding: 10px;
+}
+.logo h2{
+    color: crimson;
+    margin: 5px;
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border-color: black;
+    box-shadow: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: xx-large;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px; /* Add rounded corners */
+    padding: 1px 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    height: 40px; /* Adjusted height */
+  }
+  .searchBar {
+    background-color: white; /* Set the background color to white */
+    border: 1px solid black; /* Add a border to the search bar */
+    border-radius: 4px; /* Add some border-radius for rounded corners */
+    padding: 8px; /* Add padding to the search bar */
+  }
+  .searchInput {
+    border: none;
+    outline: none;
+    background: none;
+    width: 200px; /* Adjust width as needed */
+    font-size: 16px;
+    color: #333; /* Change text color */
+  }
+  
+  .searchIcon {
+    margin-right: 8px; /* Add some spacing between the icon and the input */
+    color: #2196F3; /* Change icon color */
+  }
+
+.login{
+    margin: 10px;
+
+}
+.login-btn, .signup-btn{
+    height: 30px;
+    width: 90px;
+    font-size:larger;
+    font-weight: bolder;
+   
+    border: 0px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    background-color:crimson;
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+}
+
+

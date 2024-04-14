@@ -1,0 +1,32 @@
+.modify-product-container {
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 5px;
+}
+
+.input-field {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
